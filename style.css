@@ -1,0 +1,37 @@
+.container {
+    width: 600px;
+    background-color:rgb(250, 209, 216); 
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: sans-serif;
+}
+
+img {
+    width: 150px;
+}
+
+.row1 {
+    display: flex;
+    background-color:lightcyan;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 15px;
+
+}
+
+.row2 {
+    display: flex;
+    background-color: rgb(146, 191, 195);
+    margin: 10px;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.row3 {
+    display: flex;
+    background-color: rgb(77, 120, 131);
+    margin: 10px;
+    padding: 15px;
+    justify-content: space-around;
+}
